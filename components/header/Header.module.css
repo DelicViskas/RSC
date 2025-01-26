@@ -1,0 +1,27 @@
+.nav {
+  
+  & ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+  & li {
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+    flex-grow: 1;
+    transition: background-color .1s linear;
+    font-size: 18px;
+    padding: 5px 0;
+    & a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &:hover {
+      background-color: blanchedalmond;
+    }
+  }
+
+}
+
